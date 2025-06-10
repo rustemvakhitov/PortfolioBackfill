@@ -1,0 +1,21 @@
+{
+  "Angular":"blue",
+   "bootstrap":"lightblue",
+   ".Net":"green",
+   "Asp.Net":"lightgreen",
+   "WebApi":"darkgreen",
+   "DynamoDB":"orange",
+   "GitHub":"red",
+   "GitLab":"red",
+   "IaC":"lightblue",
+   "AWS CDK":"orange",
+   "ASW Fargate":"orange",
+   "ASW EC2":"orange",
+   "ASW S3":"orange",
+   "ASW ECR":"orange",
+   "ASW ECS":"orange",
+   "AWS Elastic Load Balancer":"orange",
+   "CI/CD":"orange",
+   "AWS Route 53":"orange",
+   "Python":"FFE873"
+}

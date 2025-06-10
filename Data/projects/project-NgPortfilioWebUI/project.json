@@ -1,0 +1,9 @@
+{
+    "id": null, 
+    "name": ".Net WebApi for Portfolio Web Site", 
+    "synopsis": "Asp.Net Core Web Api with OpenApi", 
+    "description": "The main purpose of this project is to show an ability of the developer to RESTful Web APIs to support lightweight front-end client", 
+    "projectRepositoryLink": "https://github.com/rustemvakhitov/PortfolioWebUI", 
+    "pictures": null, 
+    "tags": ["Angular", "bootstrap", "ASW Fargate", "ASW ECR", "AWS Elastic Load Balancer","ASW S3", "DynamoDB", "AWS Route 53", ".Net"]
+}
