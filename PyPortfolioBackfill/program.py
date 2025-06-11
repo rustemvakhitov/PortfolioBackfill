@@ -3,6 +3,7 @@ import os
 import project
 import datatobackfill
 import s3helper
+import dynamoDbHelper
 
 
 def main():
@@ -18,6 +19,9 @@ def main():
     print(projects)
     print(tags)
 
+    dDbHelper = dynamoDbHelper.DynamoDbHelper(c)
+    dDbHelper.loadTags(tags)
+
 
     # upload pictures to S3, give read-only access, remember URLs
     s3h = s3helper.S3Helper(c)
@@ -26,6 +30,8 @@ def main():
         project.pictures = picturesURLs
 
     #load project tags to Dynamo
+    dDbHelper = dynamoDbHelper.DynamoDbHelper(c)
+    dDbHelper.loadTags(tags)
 
     #load Project details to Dynamo
 

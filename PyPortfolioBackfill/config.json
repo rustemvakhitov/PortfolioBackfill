@@ -4,6 +4,9 @@
   "tags-file": "tags.json",
 
   "bucket-name":"rustemvakhitov-s3-portfolio-project-9843098340243",
-  "region":"us-east-2"
+  "region":"us-east-2",
+
+  "tags-table-name":"Tags",
+  "projects-table-name":"Projects"
   }
 }

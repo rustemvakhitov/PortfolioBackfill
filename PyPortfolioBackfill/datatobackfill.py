@@ -20,12 +20,16 @@ class DataToBackfill():
     def getProjects(self):
         projects = list()
 
+        id:int = 0
+
         for subfolder in os.scandir(self.Config.ProjectsRoot):
             if subfolder.is_dir():
                 project = self.getProject(subfolder.path)
 
                 if project is not None:
+                    project.id = id
                     projects.append(project)
+                    id += 1
 
         return projects
     

@@ -11,7 +11,10 @@ class Config():
         self.TagsFile = self.getConfigKey('tags-file', default=None)
         self.BucketName = self.getConfigKey('bucket-name', default=None)
         self.Region = self.getConfigKey('region', default=None)
+        self.ProjectsTableName = self.getConfigKey('projects-table-name', default=None)
+        self.TagsTableName = self.getConfigKey('tags-table-name', default=None)
 
+        return
 
     def getConfigKey(self, key, default=None):
         settings = self.Config['settings']
