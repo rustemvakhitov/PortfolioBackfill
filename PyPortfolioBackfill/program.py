@@ -2,6 +2,7 @@ import config
 import os
 import project
 import datatobackfill
+import s3helper
 
 
 def main():
@@ -16,6 +17,11 @@ def main():
 
     print(projects)
     print(tags)
+
+    s3h = s3helper.S3Helper(c)
+    for project in projects:
+        s3h.uploadProjectPictures(project)
+          
 
     s = input()
 

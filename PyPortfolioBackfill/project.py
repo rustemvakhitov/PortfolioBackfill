@@ -5,6 +5,7 @@ class Project():
 
     def __init__(self):
         self.id = None
+        self.key = None
         self.name = None
         self.synopsis = None
         self.description = None
