@@ -1,5 +1,6 @@
 {
     "id": null, 
+    "key":"project-NgPortfilioWebUI", 
     "name": ".Net WebApi for Portfolio Web Site", 
     "synopsis": "Asp.Net Core Web Api with OpenApi", 
     "description": "The main purpose of this project is to show an ability of the developer to RESTful Web APIs to support lightweight front-end client", 

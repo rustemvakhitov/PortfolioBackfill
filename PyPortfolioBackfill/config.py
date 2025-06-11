@@ -9,6 +9,8 @@ class Config():
         self.ProjectsRoot = self.getConfigKey('projects-root', default=None)
         self.TagsRoot = self.getConfigKey('tags-root', default=None)
         self.TagsFile = self.getConfigKey('tags-file', default=None)
+        self.BucketName = self.getConfigKey('bucket-name', default=None)
+        self.Region = self.getConfigKey('region', default=None)
 
 
     def getConfigKey(self, key, default=None):

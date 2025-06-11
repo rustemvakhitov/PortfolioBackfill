@@ -1,5 +1,6 @@
 {
     "id": null, 
+    "key":"project-PyPortfolioBackfill", 
     "name": "Backfill data for portfolio project", 
     "synopsis": "Python app that loads projects and reference data into DynomoDB and Aws S3", 
     "description": "The main purpose of this project is to show an ability of the developer to use Python dev tools to acces AWS entitiesa and load data there", 
