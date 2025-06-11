@@ -1,20 +1,24 @@
 import json
+from dataclasses import dataclass
 
-
+@dataclass
 class Project():
-
-    def __init__(self):
-        self.id = None
-        self.key = None
-        self.name = None
-        self.synopsis = None
-        self.description = None
-        self.projectRepositoryLink = None
-        self.pictures = ["Ford", "Volvo", "BMW"]
-        self.tags = ["Ford", "Volvo", "BMW"]
+    id: int
+    key: str
+    name: str
+    synopsis: str
+    description: str
+    projectRepositoryLink: str
+    pictures: list[str]
+    tags: list[str] 
 
     def toJSON(self):
-           return json.dumps(self.__dict__)    
+           return json.dumps(self.__dict__)  
+
+    @classmethod
+    def fromJSON(cls, file_path):
+        data = json.load(open(file_path))
+        return cls(**data) 
 
     def __str__(self):
         return f'Instance of Project == {self.toJSON()}'

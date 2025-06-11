@@ -36,11 +36,10 @@ class DataToBackfill():
             return None
 
         projectfile = open(pathToProjectFile,)
-        project = json.load(projectfile)
+        proj: project.Project = project.Project.fromJSON(pathToProjectFile)
+        proj.pictures = self.getProjectPictures(pathToProject)
 
-        project['pictures'] = self.getProjectPictures(pathToProject)
-
-        return project
+        return proj
     
     def getProjectPictures(self, pathToProject):
         pathToProjectPictures = os.path.join(pathToProject, 'pictures')

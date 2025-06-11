@@ -1,6 +1,7 @@
 import boto3
 from botocore.exceptions import ClientError
 import config
+import project
 
 
 class S3Helper():
@@ -9,12 +10,16 @@ class S3Helper():
         self.Config = config
         
 
-    def uploadProjectPictures(self, projectName, pictures):
+    def uploadProjectPictures(self, proj: project.Project):
 
         self.createBucket(self.Config.BucketName, self.Config.Region)
 
         client = boto3.client('s3')
-        response = client.put_object(Bucket=self.Config.BucketName,Body='', Key=projectName)
+        try:
+            response = client.put_object(Bucket=self.Config.BucketName, Key=f'{proj.key}/')
+            print(response)
+        except ClientError as e:
+            print(e)
 
         return
     
