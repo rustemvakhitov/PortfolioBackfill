@@ -1,9 +1,11 @@
 {
     "id": null, 
     "key":"project-NgPortfilioWebUI", 
-    "name": ".Net WebApi for Portfolio Web Site", 
-    "synopsis": "Asp.Net Core Web Api with OpenApi", 
-    "description": "The main purpose of this project is to show an ability of the developer to RESTful Web APIs to support lightweight front-end client", 
+    "name": "Portfolio Web Site using Angular", 
+    "synopsis": "Angular 19 for Front-End, .net WebApi, and DynamoDB as a storage for app data", 
+    "description": "The main purpose of this project is to show an ability of the developer to implement responsive lightweight Web UI and backend API using specified tech stack and also hosting another portfolio projects that prove dev's expertise in other areas", 
+    
+
     "projectRepositoryLink": "https://github.com/rustemvakhitov/PortfolioWebUI", 
     "pictures": null, 
     "tags": ["Angular", "bootstrap", "ASW Fargate", "ASW ECR", "AWS Elastic Load Balancer","ASW S3", "DynamoDB", "AWS Route 53", ".Net"]
