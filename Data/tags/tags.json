@@ -1,5 +1,5 @@
 {
-  "Angular":"blue",
+  "Angular":"#c3002f",
    "bootstrap":"lightblue",
    ".Net":"green",
    "Asp.Net":"lightgreen",
@@ -18,5 +18,5 @@
    "CI/CD":"orange",
    "AWS Route 53":"orange",
    "AWS Certificate Manager":"orange",
-   "Python":"FFE873"
+   "Python":"#FFE873"
 }
