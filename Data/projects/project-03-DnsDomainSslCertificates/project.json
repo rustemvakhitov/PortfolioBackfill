@@ -1,10 +1,10 @@
 {
     "id": null, 
-    "key":"project-PyPortfolioBackfill", 
-    "name": "Backfill data for portfolio project", 
-    "synopsis": "Python app that loads projects and reference data into DynomoDB and Aws S3", 
-    "description": "The main purpose of this project is to show an ability of the developer to use Python dev tools to acces AWS entities and load data there", 
-    "projectRepositoryLink": "https://github.com/rustemvakhitov/PortfolioBackfill", 
+    "key":"project-DnsDomainSslCertificates", 
+    "name": "AWS hosting and secure communication via Https leveraging SSL certificates", 
+    "synopsis": "AWS hosting for portfolio website and Web Api; SSL certificates to allow secure HTTPS communication over web", 
+    "description": "Created public domain using AWS Route 53; configured hosted zones to riderect traffic to Load Balancers; requested SSL certificates; configured liateners to use HTTPS using those certificates", 
+    "projectRepositoryLink": "", 
     "pictures": null, 
-    "tags": ["Python", "ASW S3", "DynamoDB"]
+    "tags": ["AWS Route 53", "AWS Certificate Manager"]
 }

@@ -17,5 +17,6 @@
    "AWS Elastic Load Balancer":"orange",
    "CI/CD":"orange",
    "AWS Route 53":"orange",
+   "AWS Certificate Manager":"orange",
    "Python":"FFE873"
 }
