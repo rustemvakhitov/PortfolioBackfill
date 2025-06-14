@@ -1,6 +1,6 @@
 {
     "id": null,
-    "key":"project-01-NetPortfolioWebApi", 
+    "key":"", 
     "name": ".Net WebApi for Portfolio Web Site", 
     "synopsis": "Asp.Net Core Web Api with OpenApi", 
     "description": "The main purpose of this project is to show an ability of the developer to RESTful Web APIs [using asp.net] to support lightweight front-end client", 
