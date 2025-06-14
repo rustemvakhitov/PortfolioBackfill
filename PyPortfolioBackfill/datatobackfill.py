@@ -28,6 +28,7 @@ class DataToBackfill():
 
                 if project is not None:
                     project.id = id
+                    project.key = subfolder.name
                     projects.append(project)
                     id += 1
 
