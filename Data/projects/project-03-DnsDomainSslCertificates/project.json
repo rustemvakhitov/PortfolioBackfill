@@ -1,6 +1,6 @@
 {
     "id": null, 
-    "key":"project-DnsDomainSslCertificates", 
+    "key":"project-03-DnsDomainSslCertificates", 
     "name": "AWS hosting and secure communication via Https leveraging SSL certificates", 
     "synopsis": "AWS hosting for portfolio website and Web Api; SSL certificates to allow secure HTTPS communication over web", 
     "description": "Created public domain using AWS Route 53; configured hosted zones to riderect traffic to Load Balancers; requested SSL certificates; configured liateners to use HTTPS using those certificates", 
