@@ -1,0 +1,10 @@
+{
+    "id": null, 
+    "key":"", 
+    "name": "C# code samples", 
+    "synopsis": "I submitted some C# code samples", 
+    "description": "Code samples for some programming exercises", 
+    "projectRepositoryLink": "https://github.com/rustemvakhitov/CSharpExercises", 
+    "pictures": null, 
+    "tags": [".Net"]
+}
